@@ -1,0 +1,37 @@
+/* Vermelho 1 */
+.vermelho-texto1{
+    color: var(--cor11);
+    transition: 2s;
+}
+.vermelho-fundo1{
+    background-color: var(--cor11);
+    transition: 2s;
+}
+/* Vermelho 2 */
+.vermelho-texto2{
+    color: var(--cor12);
+    transition: 2s;
+}
+.vermelho-fundo2{
+    background-color: var(--cor12);
+    transition: 2s;
+}
+/* Vermelho 3 */
+.vermelho-texto3{
+    color: var(--cor13);
+    transition: 2s;
+}
+.vermelho-fundo3{
+    background-color: var(--cor13);
+    transition: 2s;
+}
+/* Vermelho 4 */
+.vermelho-texto4{
+    color: var(--cor14);
+    transition: 2s;
+}
+.vermelho-fundo4{
+    background-color: var(--cor14);
+    transition: 2s;
+}
+

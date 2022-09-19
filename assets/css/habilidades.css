@@ -1,0 +1,186 @@
+#habilidades{
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.texto-corrido{
+    display: none;
+}
+.container-habilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.container-card-conteudo-direito{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.container-card-conteudo-esquerdo{
+    width: 50%;
+}
+.card-habilidades-esquerda{
+    width: 40%;
+}
+.card-habilidades-direita{
+    width: 60%;
+}
+.tecnologias{
+    margin-top: 20px;
+}
+/* .esconder{
+    display: none;
+}
+.esconder2{
+    display: none;
+}
+.mostrar{
+    display: block;
+    visibility: visible;
+    transition: 5s;
+} */
+/* modelo 1 */
+.card-habilidades-forav1{
+    background-color: var(--cor1);
+    border-radius: 6px;
+    margin-right: 10px;
+}
+.card-habilidadesv1{
+    color: var(--cor5);
+    padding: 10px;
+    display: flex;
+    width: 99%;
+}
+.card-habilidades-forav1 h1{
+    color: var(--cor5);
+    padding-left: 10px;
+    font-size: 2rem;    
+}
+.card-habilidades-esquerdav1{
+    width: 40%;
+}
+.card-habilidades-direita{
+    width: 60%;
+}
+.card-habilidades-mainv1 span{
+    background-color: var(--cor5);
+    color: var(--cor01);
+    padding: 1px 3px;
+    border-radius: 4px;
+}
+/* modelo 1 */
+
+
+/* modelo 2 */
+.card-habilidades-forav2{
+    background-color: var(--cor4);
+    border-radius: 6px;
+    margin-right: 10px;
+}
+.card-habilidadesv2{
+    color: var(--cor2);
+    padding: 10px;
+    display: flex;
+    width: 99%;
+}
+.card-habilidades-forav2 h1{
+    color: var(--cor1);
+    padding-left: 10px;
+    font-size: 2rem; 
+}
+.card-habilidades-esquerdav2{
+    width: 40%;
+}
+.card-habilidades-direita{
+    width: 60%;
+}
+.card-habilidades-mainv2 span{
+    background-color: var(--cor1);
+    color: var(--cor5);
+    padding: 1px 3px;
+    border-radius: 4px;
+}
+/* modelo 2 */
+
+
+@media (max-width: 920px) {
+
+    .container-card-conteudo-direito{
+        width: 70%;
+    }
+    .container-card-conteudo-esquerdo{
+        width: 30%;
+    }
+}
+@media (max-width: 880px) {
+    .card-habilidades-forav1,
+    .card-habilidades-forav2{
+        margin-right: 0px;
+    }
+    .container-habilidades{
+        display: block;
+        width: 100%;
+    }
+    .container-card-conteudo-direito{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .texto-lateral{
+        display: none;
+    }
+    .texto-corrido{
+        display: block;
+    }
+    .container-card-conteudo-esquerdo{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    #habilidades{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 730px){
+    card-habilidades-forav1,
+    card-habilidades-forav2{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .card-habilidadesv1,
+    .card-habilidadesv2{
+        flex-direction: column;
+        width: auto;
+    }
+    .card-habilidades-esquerda{
+        flex-direction: column;
+        width: auto
+    }
+    .card-habilidades-esquerda{
+        width: auto;
+    }
+    .card-habilidades-direita{
+        width: auto;
+    }
+    .container-card-conteudo-direito{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 500px){
+    .container-card-conteudo-esquerdo{
+        margin-top: 400px;
+    }
+    .container-card-conteudo-direito{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .container-card-conteudo-esquerdo{
+        margin-top: 360px;
+        margin-bottom: 60px;
+    }
+    .tecnologias{
+        display: block;
+        margin: 10px 0px ;
+    }
+}

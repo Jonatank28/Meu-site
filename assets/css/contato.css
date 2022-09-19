@@ -1,0 +1,42 @@
+.footer{
+    background-color: var(--cor4);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin-top: 100px;
+}
+.contato img{
+    width: 40px;
+    height: 40px;
+}
+.github{
+    z-index: 1000;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.contato{
+    display: flex;
+    gap: 80px;
+}
+.footer h1{
+    margin-top: 20px;
+}
+@media (max-width: 600px){
+    .footer h1{
+        font-size: 1.5rem;
+    }
+    .contato{
+        display: flex;
+        gap: 40px;
+    }
+    .contato img{
+        width: 30px;
+        height: 30px;
+    }
+    .footer{
+        height: 160px;
+        margin-top: 30px;
+    }
+}

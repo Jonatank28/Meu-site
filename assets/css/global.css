@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800;900&display=swap');
+@import url(menu.css);
+@import url(introducao.css);
+@import url(contato.css);
+@import url(portfolio.css);
+@import url(habilidades.css);
+@import url(temas-\ vermelho.css);
+:root{
+    /* Cores padrão */
+    --cor0: #cffdfe;
+    --cor01: #bcfafb;
+    --cor1: #AEFEFF;
+    --cor2: #4FBDBA;
+    --cor3: #35858B;
+    --cor4: #072227;
+    --cor5: #040a0c;
+    /* Cores Vermelho */
+    --cor11: #ffffff;
+    --cor12: #c09f9f;
+    --cor13: #ff0f0f;
+    --cor14: #310606;
+
+
+}
+body{
+    font-family: Poppins, sans-serif ;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: var(--cor5);
+    color: var(--cor1);
+    overflow-x: hidden !important;
+}
+h1,h2,h3,h4,ul,li,a,p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
